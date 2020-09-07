@@ -1,0 +1,20 @@
+Package: bis557
+Title: Package Encapsulating work for BIS557
+Version: 0.0.1
+Authors@R: 
+    person(given = "Yuhan",
+           family = "Xie",
+           role = c("aut", "cre"),
+           email = "yuhan.xie@yale.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package holds the exercise answer, write-ups and functions for BIS557.
+License: LGPL (>= 2.1)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
