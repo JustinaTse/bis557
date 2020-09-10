@@ -7,13 +7,14 @@
 grab_coeffs(lm_obj)
 }
 \arguments{
-\item{lm_obj}{the lienar model object created by the lm() function.}
+\item{lm_obj}{the linear model object created by the lm() function.}
 }
 \description{
-This is a simple function to grab the slope coefficients of a linear model
+This is a simple function to grab the slope coefficients of
+a linear model.
 }
 \examples{
 library(palmerpenguins)
-fit<-lm(bill_length_mm~.,data = penguins[,-8]
+fit <- lm(bill_length_mm ~ ., data = penguins[, -8])
 grab_coeffs(fit)
 }
